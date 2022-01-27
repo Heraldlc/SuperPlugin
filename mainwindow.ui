@@ -41,7 +41,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>102</width>
+        <width>150</width>
         <height>321</height>
        </rect>
       </property>
@@ -50,21 +50,24 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="btn1_1">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
           <string>功能一</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="btn1_2">
          <property name="text">
           <string>功能二</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="btn1_3">
          <property name="text">
           <string>功能三</string>
          </property>
@@ -77,14 +80,14 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>102</width>
+        <width>150</width>
         <height>321</height>
        </rect>
       </property>
       <attribute name="label">
        <string>Page 2</string>
       </attribute>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="btn2_1">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -100,6 +103,9 @@
      </widget>
     </widget>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
        <string>Tab 1</string>
